@@ -1,0 +1,35 @@
+{
+  "ml-intro": [
+    {"title": "Machine Learning Fundamentals", "url": "https://www.youtube.com/watch?v=Gv9_4yMHFhI", "channel": "StatQuest with Josh Starmer"}
+  ],
+  "model-evaluation-improvement": [
+    {"title": "Machine Learning Fundamentals: Bias and Variance", "url": "https://www.youtube.com/watch?v=EuBBz3bI-aA", "channel": "StatQuest with Josh Starmer"},
+    {"title": "Machine Learning Fundamentals: Cross Validation", "url": "https://www.youtube.com/watch?v=fSytzGwwBVw", "channel": "StatQuest with Josh Starmer"},
+    {"title": "Machine Learning Fundamentals: The Confusion Matrix", "url": "https://www.youtube.com/watch?v=Kdsp6soqA7o", "channel": "StatQuest with Josh Starmer"}
+  ],
+  "model-selection-training": [
+    {"title": "Machine Learning Fundamentals: Cross Validation", "url": "https://www.youtube.com/watch?v=fSytzGwwBVw", "channel": "StatQuest with Josh Starmer"}
+  ],
+  "bayes-naive-bayes": [
+    {"title": "Naive Bayes, Clearly Explained!!!", "url": "https://www.youtube.com/watch?v=O2L2Uv9pdDA", "channel": "StatQuest with Josh Starmer"},
+    {"title": "Gaussian Naive Bayes, Clearly Explained!!!", "url": "https://www.youtube.com/watch?v=H3EjCKtlVog", "channel": "StatQuest with Josh Starmer"}
+  ],
+  "probability-basics": [
+    {"title": "Bayes' Theorem, Clearly Explained!!!!", "url": "https://www.youtube.com/watch?v=9wCnvr7Xw4E", "channel": "StatQuest with Josh Starmer"}
+  ],
+  "knn-decision-tree": [
+    {"title": "StatQuest: K-nearest neighbors, Clearly Explained", "url": "https://www.youtube.com/watch?v=HVXime0nQeI", "channel": "StatQuest with Josh Starmer"},
+    {"title": "Decision and Classification Trees, Clearly Explained!!!", "url": "https://www.youtube.com/watch?v=_L39rN6gz7Y", "channel": "StatQuest with Josh Starmer"}
+  ],
+  "random-forest-svm": [
+    {"title": "StatQuest: Random Forests Part 1 - Building, Using and Evaluating", "url": "https://www.youtube.com/watch?v=J4Wdy0Wc_xQ", "channel": "StatQuest with Josh Starmer"},
+    {"title": "Support Vector Machines, Clearly Explained!!!", "url": "https://www.youtube.com/watch?v=efR1C6CvhmE", "channel": "StatQuest with Josh Starmer"}
+  ],
+  "linear-regression": [
+    {"title": "Linear Regression, Clearly Explained!!!", "url": "https://www.youtube.com/watch?v=nk2CQITm_eo", "channel": "StatQuest with Josh Starmer"}
+  ],
+  "unsupervised-clustering": [
+    {"title": "StatQuest: K-means clustering", "url": "https://www.youtube.com/watch?v=4b5d3muPQmA", "channel": "StatQuest with Josh Starmer"},
+    {"title": "StatQuest: Hierarchical Clustering", "url": "https://www.youtube.com/watch?v=7xHsRkOdVwo", "channel": "StatQuest with Josh Starmer"}
+  ]
+}

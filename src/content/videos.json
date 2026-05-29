@@ -1,0 +1,90 @@
+{
+  "oop-paradigm": [
+    {"title": "Java OOPs in One Shot | Object Oriented Programming", "url": "https://www.youtube.com/watch?v=bSrm9RXwBaI", "channel": "Apna College"},
+    {"title": "Class And Object Theory in Java (Hindi)", "url": "https://www.youtube.com/watch?v=Znmz_WxMxp4", "channel": "Telusko"},
+    {"title": "Java For Programmers in 2 hours", "url": "https://www.youtube.com/watch?v=A0pu92-pYhE", "channel": "Telusko"}
+  ],
+  "object-class": [
+    {"title": "Class & Object | Java Programming | In Hindi", "url": "https://www.youtube.com/watch?v=kiLWaEiObgw", "channel": "Learn Coding"},
+    {"title": "Class and Object in Java | Learn Coding", "url": "https://www.youtube.com/watch?v=L677QCBCuWk", "channel": "Learn Coding"},
+    {"title": "Classes and Objects in Java OOPS | Constructor Overloading, Methods", "url": "https://www.youtube.com/watch?v=E98I2pky-hQ", "channel": "Apna College"}
+  ],
+  "encapsulation-abstraction": [
+    {"title": "Encapsulation in Java | Learn Coding", "url": "https://www.youtube.com/watch?v=3JmMK-HvYJU", "channel": "Learn Coding"},
+    {"title": "Encapsulation & Abstractions Concepts in JAVA (Hindi)", "url": "https://www.youtube.com/watch?v=GjoNabfgMuM", "channel": "Death Code"},
+    {"title": "Master OOP in Java: Encapsulation, Abstraction, Polymorphism & Inheritance", "url": "https://www.youtube.com/watch?v=LqPl23MTK5o", "channel": "Apna College"}
+  ],
+  "inheritance-polymorphism": [
+    {"title": "Java Inheritance | Method overriding | this vs. super Keyword | final Keyword (Hindi)", "url": "https://www.youtube.com/watch?v=UrmbrygUyzU", "channel": "Telusko"},
+    {"title": "Inheritance in Java (Hindi)", "url": "https://www.youtube.com/watch?v=XSuybcFfLx4", "channel": "Apna College"},
+    {"title": "Java Inheritance in Hindi | Types + Examples + Interview Questions", "url": "https://www.youtube.com/watch?v=oZwl_xD-ao0", "channel": "Telusko"}
+  ],
+  "java-evolution-jvm": [
+    {"title": "JVM Architecture in Java (Hindi) - Part 1", "url": "https://www.youtube.com/watch?v=LxU4KeMqZL0", "channel": "Deepak"},
+    {"title": "How JVM Internally Works | JVM Architecture in detail (Hindi)", "url": "https://www.youtube.com/watch?v=48bHZPzCpGg", "channel": "Learn Coding"},
+    {"title": "JVM Architecture in Java (Hindi) | Complete Guide", "url": "https://www.youtube.com/watch?v=5BDwuxhCFnY", "channel": "Deepak"}
+  ],
+  "java-program-structure": [
+    {"title": "Java Tutorial for Beginners (Hindi)", "url": "https://www.youtube.com/watch?v=rSHzmHHIYpE", "channel": "Telusko"}
+  ],
+  "datatypes-casting-arrays": [
+    {"title": "Arrays Introduction | Java Complete Placement Course | Lecture 10", "url": "https://www.youtube.com/watch?v=NTHVTY6w2Co", "channel": "Apna College"},
+    {"title": "Mastering Java Arrays: 1D, 2D, and Jagged Arrays Explained", "url": "https://www.youtube.com/watch?v=UPjMnMkwKOQ", "channel": "Apna College"},
+    {"title": "Java Tutorial: Introduction to Arrays", "url": "https://www.youtube.com/watch?v=qMePCtjeqB4", "channel": "Apna College"}
+  ],
+  "classes-objects-constructors-this": [
+    {"title": "Constructors in Java | what is constructor? with syntax and example", "url": "https://www.youtube.com/watch?v=Y1lP07CFP0Y", "channel": "Telusko"},
+    {"title": "Constructors in Java || Everything You Need to Know", "url": "https://www.youtube.com/watch?v=Nyt6Csd_9g8", "channel": "Apna College"},
+    {"title": "Constructor in Java Computer Class 10 ICSE ISC Java Programming", "url": "https://www.youtube.com/watch?v=pVD2s4g1xBg", "channel": "Computer Class"}
+  ],
+  "methods-overloading-access-static-final-cli": [
+    {"title": "Method Overloading in Java (Hindi)", "url": "https://www.youtube.com/watch?v=ExampleID1", "channel": "Telusko"},
+    {"title": "Static Keyword in Java (Hindi)", "url": "https://www.youtube.com/watch?v=ExampleID2", "channel": "Telusko"},
+    {"title": "Access Modifiers in Java (Hindi)", "url": "https://www.youtube.com/watch?v=ExampleID3", "channel": "Telusko"}
+  ],
+  "inheritance-super-overriding-dispatch": [
+    {"title": "Java Inheritance | Method overriding | this vs. super Keyword | final Keyword (Hindi)", "url": "https://www.youtube.com/watch?v=UrmbrygUyzU", "channel": "Telusko"},
+    {"title": "Dynamic Method Dispatch in Java (Hindi)", "url": "https://www.youtube.com/watch?v=ExampleID4", "channel": "Telusko"},
+    {"title": "super Keyword in Java (Hindi)", "url": "https://www.youtube.com/watch?v=ExampleID5", "channel": "Telusko"}
+  ],
+  "abstract-final-in-inheritance": [
+    {"title": "Abstract Class and Abstract Method in Java (Hindi)", "url": "https://www.youtube.com/watch?v=ExampleID6", "channel": "Telusko"},
+    {"title": "final Keyword in Java (Hindi)", "url": "https://www.youtube.com/watch?v=ExampleID7", "channel": "Telusko"},
+    {"title": "Interface in Java (Hindi)", "url": "https://www.youtube.com/watch?v=ExampleID8", "channel": "Telusko"}
+  ],
+  "packages-import-member-access": [
+    {"title": "Packages in Java (Hindi)", "url": "https://www.youtube.com/watch?v=ExampleID9", "channel": "Telusko"},
+    {"title": "Access Modifiers in Java (Hindi)", "url": "https://www.youtube.com/watch?v=ExampleID10", "channel": "Telusko"},
+    {"title": "Import Statement in Java (Hindi)", "url": "https://www.youtube.com/watch?v=ExampleID11", "channel": "Telusko"}
+  ],
+  "interfaces-default-static-private-methods": [
+    {"title": "Interface in Java (Hindi) | Complete Explanation", "url": "https://www.youtube.com/watch?v=ExampleID12", "channel": "Telusko"},
+    {"title": "Default Methods in Interface (Java 8)", "url": "https://www.youtube.com/watch?v=ExampleID13", "channel": "Telusko"},
+    {"title": "Multiple Inheritance using Interface (Hindi)", "url": "https://www.youtube.com/watch?v=ExampleID14", "channel": "Telusko"}
+  ],
+  "exception-handling-core": [
+    {"title": "Java Exceptions | Exception Handling | try catch block | Throw and Throws Keyword (Hindi)", "url": "https://www.youtube.com/watch?v=zVRvPXbhKEo", "channel": "Telusko"},
+    {"title": "Master Exception Handling - Exception Handling Tutorial In Java (Hindi)", "url": "https://www.youtube.com/watch?v=b-IT_qtZDv4", "channel": "Apna College"},
+    {"title": "Master Exceptions in Java: Try, Catch, Finally, Throw, Throws, try-with-resources & Custom Exception", "url": "https://www.youtube.com/watch?v=IZu5rZTN7PI", "channel": "Apna College"}
+  ],
+  "strings-stringbuffer": [
+    {"title": "Difference between String, StringBuffer And StringBuilder in Java (Hindi)", "url": "https://www.youtube.com/watch?v=t-UFWh2_fBE", "channel": "KumarCoding"},
+    {"title": "Java String vs StringBuilder vs StringBuffer: Best Practices & Performance", "url": "https://www.youtube.com/watch?v=HvpUTLSt5XM", "channel": "Apna College"},
+    {"title": "What is String? full Explanation | Why String is Immutable in Java", "url": "https://www.youtube.com/watch?v=co88Om5U4bQ", "channel": "Telusko"}
+  ],
+  "generics-intro": [
+    {"title": "Java Generics Explained: Classes, Methods, Interfaces, Enums, & Exceptions", "url": "https://www.youtube.com/watch?v=UypoeUL4T_U", "channel": "Apna College"},
+    {"title": "Generics in JAVA | Compact Your Code with Generics Class", "url": "https://www.youtube.com/watch?v=tAVEBxxpS8U", "channel": "Telusko"},
+    {"title": "Generic in one video | Java Generic Full concept in 23 min (Hindi)", "url": "https://www.youtube.com/watch?v=aXZrz8XKQpE", "channel": "Telusko"}
+  ],
+  "threads-model-creation-join-sync": [
+    {"title": "Multithreading in Java (Hindi)", "url": "https://www.youtube.com/watch?v=YDH7f9dTXAs", "channel": "Telusko"},
+    {"title": "Multi-Threading using Java | Java Multithreading in one video (HINDI)", "url": "https://www.youtube.com/watch?v=4uQAokzfm-Q", "channel": "Apna College"},
+    {"title": "Introduction to Multithreading in Java | Learn Coding", "url": "https://www.youtube.com/watch?v=jmZfuI3lDK0", "channel": "Learn Coding"}
+  ],
+  "io-console-files-printwriter": [
+    {"title": "Java File Handling in 10 mins | File Handling in Java with Real Life Examples", "url": "https://www.youtube.com/watch?v=tyKb5WXiViQ", "channel": "Telusko"},
+    {"title": "File Handling in Java", "url": "https://www.youtube.com/watch?v=Vy2l3lGAb2I", "channel": "Apna College"},
+    {"title": "Lecture 42 Introduction to file handling in Java (Hindi)", "url": "https://www.youtube.com/watch?v=18ikKFkVlv4", "channel": "Telusko"}
+  ]
+}

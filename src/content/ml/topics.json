@@ -1,0 +1,203 @@
+{
+  "meta": {
+    "title": "Machine Learning Exam Prep",
+    "courseCode": "25MCAC203",
+    "language": "english",
+    "updatedAt": "2026-05-29"
+  },
+  "modules": [
+    {
+      "id": "m1",
+      "title": "Module 1: Introduction to ML",
+      "examFocus": [
+        "Mitchell's well-posed learning definition (Task T, Performance P, Experience E)",
+        "Types of ML: supervised, unsupervised, reinforcement, semi-supervised",
+        "Basic data types: qualitative (nominal/ordinal) vs quantitative (interval/ratio)",
+        "Data pre-processing: handling missing values, outliers, noise, normalization, encoding"
+      ],
+      "topics": [
+        {
+          "id": "ml-intro",
+          "title": "Introduction, Well-Posed Problems & Types of ML",
+          "keywords": ["machine learning", "mitchell", "well-posed", "supervised", "unsupervised", "reinforcement", "semi-supervised"],
+          "summary": "What ML is, Mitchell's T/P/E definition, and the main learning types.",
+          "videos": []
+        },
+        {
+          "id": "ml-applications-issues",
+          "title": "Applications, Tools, Problems Not to Solve & Issues in ML",
+          "keywords": ["applications", "tools", "python", "issues", "limitations", "when not to use ml"],
+          "summary": "Where ML is used, common tools/languages, and the key issues and limits of ML.",
+          "videos": []
+        },
+        {
+          "id": "ml-data-types",
+          "title": "ML Activities & Basic Types of Data",
+          "keywords": ["qualitative", "quantitative", "nominal", "ordinal", "interval", "ratio", "data types"],
+          "summary": "The ML modelling activities and the four measurement scales of data.",
+          "videos": []
+        },
+        {
+          "id": "ml-data-preprocessing",
+          "title": "Exploring Data, Data Quality & Pre-Processing",
+          "keywords": ["missing values", "outliers", "noise", "normalization", "standardization", "encoding", "dimensionality reduction"],
+          "summary": "How to explore data, fix quality issues, and prepare data for modelling.",
+          "videos": []
+        }
+      ]
+    },
+    {
+      "id": "m2",
+      "title": "Module 2: Feature Engineering",
+      "examFocus": [
+        "Feature subset selection: filter vs wrapper vs embedded methods",
+        "Model validation: holdout, k-fold cross-validation, bootstrap",
+        "Confusion matrix metrics: accuracy, precision, recall, F1, specificity",
+        "Bias-variance tradeoff, overfitting vs underfitting"
+      ],
+      "topics": [
+        {
+          "id": "feature-transformation-selection",
+          "title": "Feature Transformation & Subset Selection",
+          "keywords": ["feature engineering", "feature selection", "filter", "wrapper", "embedded", "pca"],
+          "summary": "Creating useful features and choosing the best subset of features.",
+          "videos": []
+        },
+        {
+          "id": "model-selection-training",
+          "title": "Selecting & Training a Model",
+          "keywords": ["model selection", "train test split", "holdout", "cross validation", "bootstrap"],
+          "summary": "How to pick a model and split data correctly to train and validate it.",
+          "videos": []
+        },
+        {
+          "id": "model-representation-interpretability",
+          "title": "Model Representation & Interpretability",
+          "keywords": ["interpretability", "white box", "black box", "model representation", "explainability"],
+          "summary": "How models represent learned knowledge and why interpretability matters.",
+          "videos": []
+        },
+        {
+          "id": "model-evaluation-improvement",
+          "title": "Evaluating & Improving Model Performance",
+          "keywords": ["confusion matrix", "accuracy", "precision", "recall", "f1", "roc", "auc", "bias variance", "overfitting", "ensemble", "regularization"],
+          "summary": "Metrics to evaluate models and techniques to improve them.",
+          "videos": []
+        }
+      ]
+    },
+    {
+      "id": "m3",
+      "title": "Module 3: Probability",
+      "examFocus": [
+        "Frequentist vs Bayesian interpretation of probability",
+        "Common distributions: Bernoulli, Binomial, Normal",
+        "Bayes' theorem: prior, likelihood, posterior, MAP vs ML",
+        "Naive Bayes classifier with worked example"
+      ],
+      "topics": [
+        {
+          "id": "probability-basics",
+          "title": "Statistical Tools & Probability",
+          "keywords": ["statistics", "probability", "frequentist", "bayesian", "descriptive statistics"],
+          "summary": "Why statistics matter in ML and the two views of probability.",
+          "videos": []
+        },
+        {
+          "id": "random-variables-distributions",
+          "title": "Random Variables & Distributions",
+          "keywords": ["random variable", "discrete", "continuous", "bernoulli", "binomial", "normal", "distribution"],
+          "summary": "Random variables and the main discrete and continuous distributions.",
+          "videos": []
+        },
+        {
+          "id": "bayesian-concept-learning",
+          "title": "Bayesian Concept Learning & Estimation",
+          "keywords": ["bayesian concept learning", "prior", "likelihood", "posterior", "map", "maximum likelihood"],
+          "summary": "Learning concepts the Bayesian way using prior, likelihood and posterior.",
+          "videos": []
+        },
+        {
+          "id": "bayes-naive-bayes",
+          "title": "Bayes' Theorem & Naive Bayes Classifier",
+          "keywords": ["bayes theorem", "naive bayes", "conditional probability", "classifier", "independence"],
+          "summary": "Bayes' theorem and the Naive Bayes classifier with a worked example.",
+          "videos": []
+        }
+      ]
+    },
+    {
+      "id": "m4",
+      "title": "Module 4: Supervised Learning",
+      "examFocus": [
+        "Classification model and the supervised learning workflow",
+        "k-NN and Decision Trees (entropy, information gain, Gini index)",
+        "Random Forest (bagging) and SVM (hyperplane, margin, kernels)",
+        "Linear regression: least squares, MSE cost, R-squared"
+      ],
+      "topics": [
+        {
+          "id": "supervised-classification-intro",
+          "title": "Supervised Learning Intro & Classification Model",
+          "keywords": ["supervised learning", "classification", "regression", "labelled data", "training"],
+          "summary": "The basics of supervised learning and how classification models work.",
+          "videos": []
+        },
+        {
+          "id": "knn-decision-tree",
+          "title": "k-Nearest Neighbours & Decision Tree",
+          "keywords": ["knn", "k nearest neighbours", "decision tree", "entropy", "information gain", "gini"],
+          "summary": "Distance-based k-NN and tree-based learning with entropy and Gini.",
+          "videos": []
+        },
+        {
+          "id": "random-forest-svm",
+          "title": "Random Forest & Support Vector Machines",
+          "keywords": ["random forest", "bagging", "ensemble", "svm", "hyperplane", "margin", "kernel"],
+          "summary": "Random Forest bagging and SVM hyperplanes, margins and kernels.",
+          "videos": []
+        },
+        {
+          "id": "linear-regression",
+          "title": "Simple & Multiple Linear Regression",
+          "keywords": ["linear regression", "least squares", "mse", "cost function", "r squared", "slope"],
+          "summary": "Fitting lines with least squares and measuring fit with MSE and R-squared.",
+          "videos": []
+        }
+      ]
+    },
+    {
+      "id": "m5",
+      "title": "Module 5: Unsupervised Learning",
+      "examFocus": [
+        "Supervised vs unsupervised learning differences",
+        "Clustering: k-means steps, hierarchical, DBSCAN",
+        "Association rules: support, confidence, lift and the Apriori principle",
+        "Learning theory: PAC learning, hypothesis space, version space, no-free-lunch"
+      ],
+      "topics": [
+        {
+          "id": "unsupervised-clustering",
+          "title": "Unsupervised Learning & Clustering",
+          "keywords": ["unsupervised", "clustering", "k-means", "hierarchical", "dbscan", "centroid"],
+          "summary": "Clustering ideas and the k-means, hierarchical and DBSCAN algorithms.",
+          "videos": []
+        },
+        {
+          "id": "association-apriori",
+          "title": "Association Rules & Apriori Algorithm",
+          "keywords": ["association rules", "apriori", "support", "confidence", "lift", "market basket"],
+          "summary": "Finding item relationships using support, confidence, lift and Apriori.",
+          "videos": []
+        },
+        {
+          "id": "learning-theory",
+          "title": "Learning Theory",
+          "keywords": ["pac learning", "hypothesis space", "version space", "no free lunch", "vc dimension"],
+          "summary": "Theory of learning: PAC, hypothesis/version space and no-free-lunch.",
+          "videos": []
+        }
+      ]
+    }
+  ]
+}

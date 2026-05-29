@@ -1,0 +1,226 @@
+{
+  "meta": {
+    "title": "Java Exam Prep (OOP Using Java)",
+    "courseCode": "25MCAC201",
+    "language": "english",
+    "updatedAt": "2026-05-28"
+  },
+  "modules": [
+    {
+      "id": "m1",
+      "title": "Module 1: OOP Basics",
+      "examFocus": [
+        "OOP pillars: Encapsulation, Abstraction, Inheritance, Polymorphism",
+        "Structured vs OOP differences (very common theory question)"
+      ],
+      "topics": [
+        {
+          "id": "oop-paradigm",
+          "title": "OOP Paradigm + Structured vs OOP",
+          "keywords": ["oop", "structured", "procedural", "paradigm", "features"],
+          "summary": "What OOP is, and how it differs from procedural/structured programming.",
+          "videos": []
+        },
+        {
+          "id": "object-class",
+          "title": "Object vs Class + Object Class Methods",
+          "keywords": ["object", "class", "instance", "toString", "equals", "hashCode"],
+          "summary": "A class is the blueprint; an object is its real instance. Plus the key Object class methods: toString(), equals(), hashCode().",
+          "videos": []
+        },
+        {
+          "id": "encapsulation-abstraction",
+          "title": "Encapsulation & Abstraction",
+          "keywords": ["encapsulation", "abstraction", "data hiding", "interface"],
+          "summary": "Encapsulation = data + methods together; Abstraction = expose necessary parts, hide implementation details.",
+          "videos": []
+        },
+        {
+          "id": "inheritance-polymorphism",
+          "title": "Inheritance & Polymorphism",
+          "keywords": ["inheritance", "polymorphism", "override", "overload"],
+          "summary": "Inheritance = reuse; Polymorphism = same name, different behavior (compile-time/run-time).",
+          "videos": []
+        }
+      ]
+    },
+    {
+      "id": "m2",
+      "title": "Module 2: Java Fundamentals + Classes",
+      "examFocus": [
+        "JVM/bytecode flow",
+        "Constructors + this + static/final",
+        "Arrays + type casting"
+      ],
+      "topics": [
+        {
+          "id": "java-evolution-jvm",
+          "title": "Java Evolution, Bytecode & JVM Architecture",
+          "keywords": ["jvm", "bytecode", "jre", "jdk", "architecture"],
+          "summary": "Java flow: .java → compiler → .class (bytecode) → JVM executes (platform independent).",
+          "videos": []
+        },
+        {
+          "id": "java-program-structure",
+          "title": "Structure of a Java Program",
+          "keywords": ["class", "main", "public static void main", "syntax"],
+          "summary": "Class, main method, statements, compilation and execution steps.",
+          "videos": []
+        },
+        {
+          "id": "datatypes-casting-arrays",
+          "title": "Data Types, Type Casting & Arrays",
+          "keywords": [
+            "datatypes",
+            "primitive",
+            "casting",
+            "widening",
+            "narrowing",
+            "arrays"
+          ],
+          "summary": "Primitive/reference types, implicit/explicit casting, arrays basics.",
+          "videos": []
+        },
+        {
+          "id": "classes-objects-constructors-this",
+          "title": "Classes, Objects, Constructors, this, Garbage Collection",
+          "keywords": [
+            "class",
+            "object",
+            "constructor",
+            "this",
+            "gc",
+            "garbage collection"
+          ],
+          "summary": "Object creation, constructor types, `this` usage, GC basic idea.",
+          "videos": []
+        },
+        {
+          "id": "methods-overloading-access-static-final-cli",
+          "title": "Methods: Overloading, Passing Objects, Access Control, static/final, CLI Args",
+          "keywords": [
+            "overloading",
+            "parameters",
+            "access modifiers",
+            "static",
+            "final",
+            "command line"
+          ],
+          "summary": "Overloading vs overriding, object as param, return object, access modifiers, static/final, args[].",
+          "videos": []
+        }
+      ]
+    },
+    {
+      "id": "m3",
+      "title": "Module 3: Inheritance + Packages + Interfaces",
+      "examFocus": [
+        "Overriding + dynamic dispatch",
+        "Abstract class vs interface",
+        "Packages/import basics"
+      ],
+      "topics": [
+        {
+          "id": "inheritance-super-overriding-dispatch",
+          "title": "Inheritance: super, constructors, overriding, dynamic dispatch",
+          "keywords": [
+            "inheritance",
+            "super",
+            "overriding",
+            "dynamic dispatch",
+            "runtime polymorphism"
+          ],
+          "summary": "Superclass-subclass relation, super keyword, overriding and runtime binding.",
+          "videos": []
+        },
+        {
+          "id": "abstract-final-in-inheritance",
+          "title": "Abstract Classes + final with Inheritance",
+          "keywords": ["abstract class", "abstract method", "final"],
+          "summary": "The role of abstract classes + the effect of final on classes, methods, and variables.",
+          "videos": []
+        },
+        {
+          "id": "packages-import-member-access",
+          "title": "Packages, import, and member access",
+          "keywords": ["package", "import", "access", "visibility"],
+          "summary": "Package purpose, creation, importing, access control with packages.",
+          "videos": []
+        },
+        {
+          "id": "interfaces-default-static-private-methods",
+          "title": "Interfaces (default/static/private methods)",
+          "keywords": ["interface", "default method", "static method", "private method"],
+          "summary": "Interface basics, Java 8 default/static methods, and Java 9 private interface methods (with example).",
+          "videos": []
+        }
+      ]
+    },
+    {
+      "id": "m4",
+      "title": "Module 4: Exceptions + Strings + Generics",
+      "examFocus": [
+        "try/catch/throw/throws/finally",
+        "String vs StringBuffer",
+        "Generic class basics"
+      ],
+      "topics": [
+        {
+          "id": "exception-handling-core",
+          "title": "Exception Handling (core + user-defined)",
+          "keywords": [
+            "exception",
+            "try",
+            "catch",
+            "throw",
+            "throws",
+            "finally",
+            "custom exception"
+          ],
+          "summary": "Exception flow + built-in vs custom; throw vs throws; finally usage.",
+          "videos": []
+        },
+        {
+          "id": "strings-stringbuffer",
+          "title": "String Handling: String operations + StringBuffer",
+          "keywords": ["string", "immutable", "stringbuffer", "mutable"],
+          "summary": "String is immutable; StringBuffer is mutable, useful for frequent modifications.",
+          "videos": []
+        },
+        {
+          "id": "generics-intro",
+          "title": "Generics (Generic Class, Two Type Params)",
+          "keywords": ["generics", "type parameter", "generic class", "pair"],
+          "summary": "Generics provide type safety and improve code reuse.",
+          "videos": []
+        }
+      ]
+    },
+    {
+      "id": "m5",
+      "title": "Module 5: Multithreading + I/O",
+      "examFocus": [
+        "Thread creation (Thread/Runnable) + join/isAlive",
+        "Synchronization basics",
+        "File read/write steps + PrintWriter"
+      ],
+      "topics": [
+        {
+          "id": "threads-model-creation-join-sync",
+          "title": "Multithreading: model, creation, join/isAlive, priorities, synchronization",
+          "keywords": ["thread", "runnable", "join", "isAlive", "priority", "synchronized"],
+          "summary": "Threads basics: create/run, join/isAlive, and synchronization concept (race condition).",
+          "videos": []
+        },
+        {
+          "id": "io-console-files-printwriter",
+          "title": "I/O: Console + Files + PrintWriter",
+          "keywords": ["io", "file", "printwriter", "read", "write"],
+          "summary": "Console input/output and file reading/writing (basic flow).",
+          "videos": []
+        }
+      ]
+    }
+  ]
+}
+
