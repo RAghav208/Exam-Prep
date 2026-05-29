@@ -1,36 +1,49 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Exam Prep Hub — MCA (AIML)
 
-## Getting Started
+A fast, distraction-free exam-preparation website covering multiple subjects, built to match the official JAIN University MCA-AIML syllabus. Module-wise notes, comparison tables, worked examples, and — most importantly — a **Predicted** section built from previous-year question papers.
 
-First, run the development server:
+## Subjects
+
+| Code | Subject | What's inside |
+|------|---------|---------------|
+| **25MCAC201** | Object Oriented Programming Using Java | 5 modules · 18 topics · predicted programs + questions |
+| **25MCAC203** | Machine Learning | 5 modules · 18 topics · predicted solved problems + questions |
+
+## Features
+
+- **Module-wise notes** in simple English — definition → key points → tables → worked examples → frequently asked exam questions.
+- **Predicted section** — questions and problems drawn from previous-year papers, tagged with mark weight and likelihood, grouped by module.
+- **Java syntax highlighting** and copy-to-clipboard code blocks; clean tables and collapsible detailed notes.
+- **Subject switcher**, in-subject search, and a keyboard-friendly, mobile-responsive layout.
+- "Exam-Focused Minimal" design — light theme, single accent, zero clutter.
+
+## Tech stack
+
+- [Next.js 16](https://nextjs.org) (App Router, static export)
+- React 19 · TypeScript · Tailwind CSS v4
+- No backend — fully static, hostable on any static host.
+
+## Run locally
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Build
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run build
+```
 
-## Learn More
+Produces a fully static site in `out/`.
 
-To learn more about Next.js, take a look at the following resources:
+## Deployment (GitHub Pages)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+This repo includes a GitHub Actions workflow (`.github/workflows/deploy.yml`) that builds the static site and deploys it to GitHub Pages on every push to `master`/`main`.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+To enable it: **Settings → Pages → Build and deployment → Source → "GitHub Actions"**.
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+The workflow automatically sets the correct base path from the repository name, so the project site works at `https://<username>.github.io/<repo>/`.
