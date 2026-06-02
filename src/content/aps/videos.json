@@ -1,4 +1,59 @@
 {
+  "aps-sample-space-events": [
+    {"title": "Compound sample spaces", "url": "https://www.youtube.com/watch?v=PR-A3UAO7_0", "channel": "Khan Academy"},
+    {"title": "Probability from compound sample space", "url": "https://www.youtube.com/watch?v=6zWPgvEMVlE", "channel": "Khan Academy"},
+    {"title": "Count outcomes using tree diagram", "url": "https://www.youtube.com/watch?v=Zxvc6iPKdec", "channel": "Khan Academy"}
+  ],
+  "aps-probability-theorems": [
+    {"title": "Addition rule for probability", "url": "https://www.youtube.com/watch?v=QE2uR6Z-NcU", "channel": "Khan Academy"},
+    {"title": "Probability using combinations", "url": "https://www.youtube.com/watch?v=Xqfcy1rqMbI", "channel": "Khan Academy"},
+    {"title": "Probability from compound sample space", "url": "https://www.youtube.com/watch?v=6zWPgvEMVlE", "channel": "Khan Academy"}
+  ],
+  "aps-conditional-probability": [
+    {"title": "Conditional Probabilities, Clearly Explained", "url": "https://www.youtube.com/watch?v=_IgyaD7vOOA", "channel": "StatQuest with Josh Starmer"},
+    {"title": "Conditional probability and independence", "url": "https://www.youtube.com/watch?v=pIfpHdGVwLU", "channel": "Khan Academy"},
+    {"title": "Analyzing dependent probability", "url": "https://www.youtube.com/watch?v=8iKsY8C5VW8", "channel": "Khan Academy"}
+  ],
+  "aps-bayes-theorem": [
+    {"title": "Bayes' Theorem, Clearly Explained", "url": "https://www.youtube.com/watch?v=9wCnvr7Xw4E", "channel": "StatQuest with Josh Starmer"},
+    {"title": "Bayes theorem, the geometry of changing beliefs", "url": "https://www.youtube.com/watch?v=HZGCoVF3YvM", "channel": "3Blue1Brown"},
+    {"title": "The quick proof of Bayes' theorem", "url": "https://www.youtube.com/watch?v=U_85TaXbeIo", "channel": "3Blue1Brown"}
+  ],
+  "aps-random-variables": [
+    {"title": "Discrete and continuous random variables", "url": "https://www.youtube.com/watch?v=dOr0NKyD31Q", "channel": "Khan Academy"},
+    {"title": "Constructing a probability distribution for random variable", "url": "https://www.youtube.com/watch?v=cqK3uRoPtk0", "channel": "Khan Academy"},
+    {"title": "The Main Ideas behind Probability Distributions", "url": "https://www.youtube.com/watch?v=oI3hZJqXJuc", "channel": "StatQuest with Josh Starmer"}
+  ],
+  "aps-pmf-cdf-pdf": [
+    {"title": "Cumulative Distribution Functions and Probability Density Functions", "url": "https://www.youtube.com/watch?v=3xAIWiTJCvE", "channel": "The Organic Chemistry Tutor"},
+    {"title": "Probability density functions", "url": "https://www.youtube.com/watch?v=Fvi9A_tEmXQ", "channel": "Khan Academy"},
+    {"title": "Constructing a probability distribution for random variable", "url": "https://www.youtube.com/watch?v=cqK3uRoPtk0", "channel": "Khan Academy"}
+  ],
+  "aps-expectation-variance": [
+    {"title": "Expected Values, Main Ideas", "url": "https://www.youtube.com/watch?v=KLs_7b7SKi4", "channel": "StatQuest with Josh Starmer"},
+    {"title": "Expected Values for Continuous Variables", "url": "https://www.youtube.com/watch?v=OSPr6G6Ka-U", "channel": "StatQuest with Josh Starmer"},
+    {"title": "The Expected Value and Variance of Discrete Random Variables", "url": "https://www.youtube.com/watch?v=Vyk8HQOckIE", "channel": "jbstatistics"}
+  ],
+  "aps-uniform-bernoulli-binomial": [
+    {"title": "Continuous Probability Uniform Distribution Problems", "url": "https://www.youtube.com/watch?v=KfunVw-0AH0", "channel": "The Organic Chemistry Tutor"},
+    {"title": "Introduction to the Bernoulli Distribution", "url": "https://www.youtube.com/watch?v=bT1p5tJwn_0", "channel": "jbstatistics"},
+    {"title": "The Binomial Distribution and Test, Clearly Explained", "url": "https://www.youtube.com/watch?v=J8jNoF-K8E8", "channel": "StatQuest with Josh Starmer"}
+  ],
+  "aps-geometric-negbinomial-poisson": [
+    {"title": "Introduction to the Geometric Distribution", "url": "https://www.youtube.com/watch?v=zq9Oz82iHf0", "channel": "jbstatistics"},
+    {"title": "Introduction to the Negative Binomial Distribution", "url": "https://www.youtube.com/watch?v=BPlmjp2ymxw", "channel": "jbstatistics"},
+    {"title": "An Introduction to the Poisson Distribution", "url": "https://www.youtube.com/watch?v=jmqZG6roVqU", "channel": "jbstatistics"}
+  ],
+  "aps-normal-distribution": [
+    {"title": "The Normal Distribution, Clearly Explained", "url": "https://www.youtube.com/watch?v=rzFX5NWojp0", "channel": "StatQuest with Josh Starmer"},
+    {"title": "Introduction to the normal distribution", "url": "https://www.youtube.com/watch?v=hgtMWR3TFnY", "channel": "Khan Academy"},
+    {"title": "The Central Limit Theorem, Clearly Explained", "url": "https://www.youtube.com/watch?v=YAlJCEDH2uY", "channel": "StatQuest with Josh Starmer"}
+  ],
+  "aps-population-sample": [
+    {"title": "Population and Estimated Parameters, Clearly Explained", "url": "https://www.youtube.com/watch?v=vikkiwjQqfU", "channel": "StatQuest with Josh Starmer"},
+    {"title": "The sample size and the effective sample size", "url": "https://www.youtube.com/watch?v=67zCIqdeXpo", "channel": "StatQuest with Josh Starmer"},
+    {"title": "The Standard Error", "url": "https://www.youtube.com/watch?v=XNgt7F6FqDU", "channel": "StatQuest with Josh Starmer"}
+  ],
   "aps-hypothesis-testing": [
     {"title": "Hypothesis Testing and The Null Hypothesis", "url": "https://www.youtube.com/watch?v=0oc49DyA3-s", "channel": "StatQuest with Josh Starmer"},
     {"title": "p-values, Clearly Explained", "url": "https://www.youtube.com/watch?v=KPjMS5wOBZo", "channel": "StatQuest with Josh Starmer"}

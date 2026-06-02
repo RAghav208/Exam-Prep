@@ -53,7 +53,7 @@ export function YouTubeEmbed({
           )}
           {channel && (
             <div className="mt-0.5 font-[family-name:var(--font-geist-mono)] text-[11px] text-[var(--faint)]">
-              {channel} · Hindi
+              {channel}
             </div>
           )}
         </div>
