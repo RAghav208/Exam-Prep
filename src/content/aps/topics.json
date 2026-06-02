@@ -1,0 +1,182 @@
+{
+  "meta": {
+    "title": "Advanced Probability and Statistics Exam Prep",
+    "courseCode": "25MCAAIE2041",
+    "language": "english",
+    "updatedAt": "2026-06-02"
+  },
+  "modules": [
+    {
+      "id": "m1",
+      "title": "Module 1: Probability",
+      "examFocus": [
+        "Sample space, events, axioms of probability",
+        "Probability theorems (addition, complement, total probability)",
+        "Conditional probability and independence",
+        "Bayes' theorem — numerical problems"
+      ],
+      "topics": [
+        {
+          "id": "aps-sample-space-events",
+          "title": "Sample Space, Events & Probability Axioms",
+          "keywords": ["sample space", "events", "axioms", "set theory", "outcomes"],
+          "summary": "The language of probability: experiments, outcomes, events, and the three Kolmogorov axioms.",
+          "videos": []
+        },
+        {
+          "id": "aps-probability-theorems",
+          "title": "Probability Theorems & Counting",
+          "keywords": ["addition rule", "complement", "permutations", "combinations", "total probability"],
+          "summary": "Computing probabilities using the addition rule, complement rule, and counting techniques.",
+          "videos": []
+        },
+        {
+          "id": "aps-conditional-probability",
+          "title": "Conditional Probability & Independence",
+          "keywords": ["conditional", "independence", "multiplication rule", "P(A|B)"],
+          "summary": "Updating probability with extra information; checking whether two events are independent.",
+          "videos": []
+        },
+        {
+          "id": "aps-bayes-theorem",
+          "title": "Bayes' Theorem",
+          "keywords": ["bayes", "prior", "posterior", "likelihood", "numerical"],
+          "summary": "Reversing conditional probabilities; the formula and worked numerical problems.",
+          "videos": []
+        }
+      ]
+    },
+    {
+      "id": "m2",
+      "title": "Module 2: Random Variables",
+      "examFocus": [
+        "Discrete vs continuous random variables",
+        "Probability Mass Function (PMF) and Probability Density Function (PDF)",
+        "Cumulative Distribution Function (CDF)",
+        "Expectation, Variance, and Standard Deviation — calculations"
+      ],
+      "topics": [
+        {
+          "id": "aps-random-variables",
+          "title": "Discrete vs Continuous Random Variables",
+          "keywords": ["discrete", "continuous", "PMF", "PDF", "random variable"],
+          "summary": "What a random variable is; the difference between discrete (PMF) and continuous (PDF) cases.",
+          "videos": []
+        },
+        {
+          "id": "aps-pmf-cdf-pdf",
+          "title": "PMF, PDF & CDF",
+          "keywords": ["PMF", "PDF", "CDF", "cumulative", "distribution function"],
+          "summary": "The three core functions that describe a random variable and how to read each one.",
+          "videos": []
+        },
+        {
+          "id": "aps-expectation-variance",
+          "title": "Expectation, Variance & Standard Deviation",
+          "keywords": ["expectation", "E(X)", "variance", "Var(X)", "standard deviation", "mean"],
+          "summary": "Computing E(X), E(g(X)), Var(X) and SD for both discrete and continuous variables.",
+          "videos": []
+        }
+      ]
+    },
+    {
+      "id": "m3",
+      "title": "Module 3: Statistical Distributions",
+      "examFocus": [
+        "Uniform, Bernoulli, Binomial distributions",
+        "Geometric, Negative Binomial, Poisson distributions",
+        "Normal (Gaussian) distribution and its properties",
+        "Choosing the right distribution for a problem"
+      ],
+      "topics": [
+        {
+          "id": "aps-uniform-bernoulli-binomial",
+          "title": "Uniform, Bernoulli & Binomial",
+          "keywords": ["uniform", "bernoulli", "binomial", "n trials", "success probability"],
+          "summary": "The first three distributions: when each applies, parameters, and the E(X)/Var(X) formulas.",
+          "videos": []
+        },
+        {
+          "id": "aps-geometric-negbinomial-poisson",
+          "title": "Geometric, Negative Binomial & Poisson",
+          "keywords": ["geometric", "negative binomial", "poisson", "rare events", "rate"],
+          "summary": "Distributions for counts of trials or rare events; PMFs, means and variances.",
+          "videos": []
+        },
+        {
+          "id": "aps-normal-distribution",
+          "title": "Normal (Gaussian) Distribution",
+          "keywords": ["normal", "gaussian", "bell curve", "z-score", "68-95-99.7"],
+          "summary": "The Normal distribution: parameters, symmetry, empirical rule, and Z-score standardization.",
+          "videos": []
+        }
+      ]
+    },
+    {
+      "id": "m4",
+      "title": "Module 4: Inferential Statistics I",
+      "examFocus": [
+        "Population vs sample; large-sample (n > 30) testing",
+        "Hypothesis testing: H0/H1, Type I & II errors, 1- vs 2-tailed",
+        "Z-test for means: one-sample and two-sample",
+        "Z-test for proportions: one- and two-sample (two-sample proportion is IMP — 3 of 6 IA2 questions)"
+      ],
+      "topics": [
+        {
+          "id": "aps-population-sample",
+          "title": "Populations, Samples & Sampling",
+          "keywords": ["population", "sample", "random sampling", "parameter", "statistic"],
+          "summary": "The inferential setup: from a population to a sample, and the role of parameters and statistics.",
+          "videos": []
+        },
+        {
+          "id": "aps-hypothesis-testing",
+          "title": "Hypothesis Testing: H0, H1, Errors & P-value",
+          "keywords": ["null hypothesis", "alternative hypothesis", "alpha", "p-value", "type I", "type II"],
+          "summary": "Setting up H0 and H1, choosing alpha, computing the p-value, and making a decision.",
+          "videos": []
+        },
+        {
+          "id": "aps-z-test",
+          "title": "Z-Test: Means & Proportions",
+          "keywords": ["z-test", "z-statistic", "one-sample", "two-sample", "proportion", "critical value"],
+          "summary": "Large-sample Z-tests: one- and two-sample tests for means, plus one- and two-sample tests for proportions — the proportion tests are the most-asked type in IA.",
+          "videos": []
+        }
+      ]
+    },
+    {
+      "id": "m5",
+      "title": "Module 5: Inferential Statistics II",
+      "examFocus": [
+        "T-test: one-sample, two-sample, and paired",
+        "F-test for equality of variances",
+        "ANOVA: one-way and two-factor (interpretation)",
+        "Effect size and reporting statistical findings"
+      ],
+      "topics": [
+        {
+          "id": "aps-t-test",
+          "title": "T-Test: One-Sample, Two-Sample & Paired",
+          "keywords": ["t-test", "t-statistic", "degrees of freedom", "paired", "independent"],
+          "summary": "When the population variance is unknown — T-test variants, formulas, and decision rules.",
+          "videos": []
+        },
+        {
+          "id": "aps-f-test",
+          "title": "F-Test for Equality of Variances",
+          "keywords": ["f-test", "f-statistic", "ratio of variances", "homogeneity"],
+          "summary": "Comparing two variances using the F-distribution; when to use it and how to interpret the result.",
+          "videos": []
+        },
+        {
+          "id": "aps-anova",
+          "title": "ANOVA: One-Way & Two-Factor",
+          "keywords": ["ANOVA", "f-statistic", "between groups", "within groups", "effect size"],
+          "summary": "Comparing three or more means; F-statistic, p-value, and the meaning of a significant result.",
+          "videos": []
+        }
+      ]
+    }
+  ]
+}

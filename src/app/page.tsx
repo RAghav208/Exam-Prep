@@ -39,7 +39,7 @@ export default function Hub() {
               >
                 <div className="flex items-center justify-between gap-3">
                   <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-accent font-[family-name:var(--font-geist-mono)] text-base font-bold uppercase text-white">
-                    {s.slug === "java" ? "J" : "ML"}
+                    {s.slug === "java" ? "J" : s.slug === "ml" ? "ML" : "ST"}
                   </span>
                   <span className="rounded-full border border-border bg-[var(--surface-muted)] px-2.5 py-1 font-[family-name:var(--font-geist-mono)] text-[11px] text-muted">
                     {s.courseCode}

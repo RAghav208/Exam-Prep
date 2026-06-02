@@ -1,9 +1,9 @@
 import { notFound } from "next/navigation";
 import { Sidebar } from "@/components/Sidebar";
-import { getSubject } from "@/lib/subjects";
+import { allSubjects, getSubject } from "@/lib/subjects";
 
 export function generateStaticParams() {
-  return [{ subject: "java" }, { subject: "ml" }];
+  return allSubjects().map((s) => ({ subject: s.slug }));
 }
 
 export default async function SubjectLayout({

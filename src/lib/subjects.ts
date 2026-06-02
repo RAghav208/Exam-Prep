@@ -38,9 +38,26 @@ import {
   getPredictedProgramsForModule as mlGetPredictedProgramsForModule,
 } from "@/lib/ml/predicted";
 
+// --- APS data (Advanced Probability and Statistics) ---
+import apsTopics from "@/content/aps/topics.json";
+import apsVideos from "@/content/aps/videos.json";
+import {
+  getTopicContent as apsGetTopicContent,
+  getDetailedNotes as apsGetDetailedNotes,
+  getTopicMeta as apsGetTopicMeta,
+} from "@/lib/aps/topicContent";
+import {
+  predictedQuestions as apsPredictedQuestions,
+  predictedPrograms as apsPredictedPrograms,
+  getPredictedQuestionsForTopic as apsGetPredictedQuestionsForTopic,
+  getPredictedProgramsForTopic as apsGetPredictedProgramsForTopic,
+  getPredictedQuestionsForModule as apsGetPredictedQuestionsForModule,
+  getPredictedProgramsForModule as apsGetPredictedProgramsForModule,
+} from "@/lib/aps/predicted";
+
 export type { Syllabus, Module, Topic };
 
-export type SubjectSlug = "java" | "ml";
+export type SubjectSlug = "java" | "ml" | "aps";
 
 /** Shared shapes for the predicted-material helpers (structurally identical
  *  to the per-subject `PredictedQuestion` / `PredictedProgram` types). */
@@ -133,6 +150,25 @@ export const SUBJECTS: Record<SubjectSlug, Subject> = {
     getPredictedProgramsForTopic: mlGetPredictedProgramsForTopic,
     getPredictedQuestionsForModule: mlGetPredictedQuestionsForModule,
     getPredictedProgramsForModule: mlGetPredictedProgramsForModule,
+  },
+  aps: {
+    slug: "aps",
+    name: "Advanced Probability and Statistics",
+    courseCode: "25MCAAIE2041",
+    tagline: "Exam-first notes, predicted numericals, and curated videos for Advanced Probability and Statistics.",
+    programsLabel: "Predicted Numericals",
+    programLang: "text",
+    syllabus: apsTopics as Syllabus,
+    getTopicContent: apsGetTopicContent,
+    getDetailedNotes: apsGetDetailedNotes,
+    getTopicMeta: apsGetTopicMeta,
+    videos: apsVideos as VideosMap,
+    predictedQuestions: apsPredictedQuestions,
+    predictedPrograms: apsPredictedPrograms,
+    getPredictedQuestionsForTopic: apsGetPredictedQuestionsForTopic,
+    getPredictedProgramsForTopic: apsGetPredictedProgramsForTopic,
+    getPredictedQuestionsForModule: apsGetPredictedQuestionsForModule,
+    getPredictedProgramsForModule: apsGetPredictedProgramsForModule,
   },
 };
 

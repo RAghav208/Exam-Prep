@@ -273,7 +273,7 @@ export function Sidebar({ subject: subjectProp }: { subject?: string }) {
 function Logo({ slug }: { slug: SubjectSlug }) {
   return (
     <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-accent font-[family-name:var(--font-geist-mono)] text-[12px] font-bold uppercase text-white">
-      {slug === "java" ? "J" : "ML"}
+      {slug === "java" ? "J" : slug === "ml" ? "ML" : "ST"}
     </span>
   );
 }
