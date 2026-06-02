@@ -1,1 +1,23 @@
-{}
+{
+  "aps-hypothesis-testing": [
+    {"title": "Hypothesis Testing and The Null Hypothesis", "url": "https://www.youtube.com/watch?v=0oc49DyA3-s", "channel": "StatQuest with Josh Starmer"},
+    {"title": "p-values, Clearly Explained", "url": "https://www.youtube.com/watch?v=KPjMS5wOBZo", "channel": "StatQuest with Josh Starmer"}
+  ],
+  "aps-z-test": [
+    {"title": "Z-Score vs. Z-Test... What's the Difference?", "url": "https://www.youtube.com/watch?v=n8uY6J_EhrE", "channel": "StatQuest with Josh Starmer"},
+    {"title": "One Sample Z-Test", "url": "https://www.youtube.com/watch?v=XpoGnz_u1KM", "channel": "StatQuest with Josh Starmer"},
+    {"title": "Two Sample Z-Test", "url": "https://www.youtube.com/watch?v=yuHGR9I-WEw", "channel": "StatQuest with Josh Starmer"}
+  ],
+  "aps-t-test": [
+    {"title": "One Sample t-test, Clearly Explained", "url": "https://www.youtube.com/watch?v=ZX8Dk-7KkXg", "channel": "StatQuest with Josh Starmer"},
+    {"title": "Two Sample t-test: equal variances", "url": "https://www.youtube.com/watch?v=yoIFAsi2SCs", "channel": "StatQuest with Josh Starmer"},
+    {"title": "Two Sample t-test: unequal variances", "url": "https://www.youtube.com/watch?v=PVsK0ABfDS4", "channel": "StatQuest with Josh Starmer"}
+  ],
+  "aps-f-test": [
+    {"title": "F-statistic and F-distribution, clearly explained", "url": "https://www.youtube.com/watch?v=ww5JlpWGJng", "channel": "StatQuest with Josh Starmer"}
+  ],
+  "aps-anova": [
+    {"title": "ANOVA, Clearly Explained", "url": "https://www.youtube.com/watch?v=ITf4vHShFyI", "channel": "StatQuest with Josh Starmer"},
+    {"title": "ANOVA: F-statistic vs. F-distribution, Clearly Explained", "url": "https://www.youtube.com/watch?v=X2cNQ7IiKKk", "channel": "StatQuest with Josh Starmer"}
+  ]
+}
