@@ -1,6 +1,6 @@
 # Exam Prep Hub — MCA (AIML)
 
-A fast, distraction-free exam-preparation website covering multiple subjects, built to match the official JAIN University MCA-AIML syllabus. Module-wise notes, comparison tables, worked examples, and — most importantly — a **Predicted** section built from previous-year question papers.
+A fast, distraction-free exam-preparation website covering multiple subjects, built to match the official JAIN University MCA-AIML syllabus. Module-wise notes, comparison tables, step-by-step worked solutions, and — most importantly — a **Predicted** section built from previous-year question papers and internal-assessment (IA) tests.
 
 ## Subjects
 
@@ -8,12 +8,14 @@ A fast, distraction-free exam-preparation website covering multiple subjects, bu
 |------|---------|---------------|
 | **25MCAC201** | Object Oriented Programming Using Java | 5 modules · 18 topics · predicted programs + questions |
 | **25MCAC203** | Machine Learning | 5 modules · 18 topics · predicted solved problems + questions |
+| **25MCAAIE2041** | Advanced Probability and Statistics | 5 modules · 16 topics · predicted **step-by-step numericals** + questions |
 
 ## Features
 
 - **Module-wise notes** in simple English — definition → key points → tables → worked examples → frequently asked exam questions.
 - **Predicted section** — questions and problems drawn from previous-year papers, tagged with mark weight and likelihood, grouped by module.
-- **Java syntax highlighting** and copy-to-clipboard code blocks; clean tables and collapsible detailed notes.
+- **Step-by-step maths solutions** — every numerical is laid out as `APPROACH → numbered steps → formula → final answer`, so you can follow exactly how it's solved (built for the probability & statistics paper).
+- **Syntax-highlighted code** (Java / Python) with copy-to-clipboard blocks; clean tables and collapsible detailed notes.
 - **Subject switcher**, in-subject search, and a keyboard-friendly, mobile-responsive layout.
 - "Exam-Focused Minimal" design — light theme, single accent, zero clutter.
 
