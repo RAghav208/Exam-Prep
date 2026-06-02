@@ -43,3 +43,6 @@ next-env.d.ts
 
 # claws (terminal tooling runtime — not project code)
 .claws/
+
+# local agent packs
+agency-agents/
